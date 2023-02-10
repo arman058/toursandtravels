@@ -17,7 +17,7 @@
 #mainpage::after {
     content: "";
     position: absolute;
-    background: url(../image/indiagate2.resized.edited.jpg)no-repeat center center/cover;
+    background: url(./indiagate2.resized.edited.jpg)no-repeat center center/cover;
     height: 500px;
     width: 100%;
     z-index: -1;
