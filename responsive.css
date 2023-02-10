@@ -1,0 +1,67 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    margin: 11px auto;
+}
+#navbar #button1{
+    display: none;
+}
+#navbar ul li a {
+    text-decoration: none;
+    padding: 5px 9px;
+    font-size: 18px;
+    color: #2e4c9f;
+    font-family: 'Baloo 2', cursive;
+
+}
+#mainpage::after {
+    content: "";
+    position: absolute;
+    background: url(../image/indiagate2.resized.edited.jpg)no-repeat center center/cover;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+}
+#booking{
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    height: 450px;
+    width: 100%;
+    top: 107px;
+}
+#booking #head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#booking #head ul{
+    display: flex;
+    align-items: center;
+    
+}
+#booking #head ul li{
+    list-style: none;
+
+}
+#booking #head ul li a{
+    text-decoration: none;
+    color: #2e4c9f;
+    font-family: 'Baloo 2', cursive;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#booking #form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 424px;
+}
+#booking #form form .form-group{
+    padding-bottom: 10px;
+}
